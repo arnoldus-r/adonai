@@ -1,6 +1,7 @@
 import { ThemeProvider } from "@mui/material/styles";
 import theme from './components/Theme';
 import Login from './pages/Login';
+import UserTable from './components/UserTable';
 
 import { CssBaseline } from '@mui/material';
 
@@ -9,6 +10,7 @@ function App() {
 		<ThemeProvider theme={ theme }>
 			<CssBaseline>
 				<Login />
+				<UserTable />
 			</CssBaseline>
 		</ThemeProvider>
 	);
