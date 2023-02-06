@@ -4,6 +4,8 @@ import TextField from '@mui/material/TextField';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
+import { useNavigate } from "react-router-dom";
+
 
 function Copyright(props) {
   return (
@@ -17,7 +19,10 @@ function Copyright(props) {
 }
 
 
+
 export default function Login() {
+      const navigate = useNavigate();
+
   const handleSubmit = (event) => {
     event.preventDefault();
     const data = new FormData(event.currentTarget);
@@ -25,6 +30,9 @@ export default function Login() {
       email: data.get('email'),
       password: data.get('password'),
     });
+    localStorage.setItem('@token', data.get('email'));
+    if (data.get('email') === '0') {  navigate("/user")}
+      else if (data.get('email') === '1') { navigate("report")}
   };
 
   return (

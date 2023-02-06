@@ -14,10 +14,10 @@ let theme = createTheme({
 theme = {
 	...theme,
 	components: {
-		TableCell: {
+		MuiTableCell: {
 			styleOverrides: {
-				root: {
-					color: "#7CB342",
+				head: {
+					background: "#7CB342",
 				},
 			},
 		},
