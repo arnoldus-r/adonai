@@ -6,7 +6,6 @@ import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import { useNavigate } from "react-router-dom";
 
-
 function Copyright(props) {
 	return (
 		<Typography variant="body2" color="text.secondary" align="center" {...props}>
@@ -25,12 +24,10 @@ export default function Login() {
 		event.preventDefault();
 		const data = new FormData(event.currentTarget);
 		
-		if (data.get('email') === '0') {
-			navigate("/user")
-		}
-		else if (data.get('email') === '1') {
-			navigate("/report")
-		}
+		if (data.get('email') === '0')
+			navigate("/uno/general")
+		else if (data.get('email') === '1')
+			navigate("/uno/almacen")
 	};
 
 	return (
@@ -75,7 +72,6 @@ export default function Login() {
 						</Button>
 					</Box>
 				</Box>
-				<Copyright sx={{ mt: 8, mb: 4 }} />
 			</Container>
 	);
 }

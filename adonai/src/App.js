@@ -8,6 +8,12 @@ import theme from './components/Theme';
 import Login from './pages/Login';
 import UserTable from './components/UserTable';
 import Report from './components/Report';
+import Dashboard from './components/Dashboard';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Body from './components/Body';
+
+
 
 function App() {
 
@@ -15,11 +21,7 @@ function App() {
 		<Router>
 			<ThemeProvider theme={ theme }>
 				<CssBaseline>
-					<Routes> 
-						<Route exact path='/' element={<Login />} /> 
-						<Route path='/user' element={<UserTable />} />
-						<Route path='/report' element={<Report />} /> 
-					</Routes>
+					<Dashboard />
 				</CssBaseline>
 			</ThemeProvider>
 		</Router>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ES">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="catalogo.css">
+        <title> Adonai </title>
+    </head>
+    <body>
+        <nav>
+            <ul class="Menu">
+                <li>
+                    <a href="index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="">Información</a>
+                </li>
+                <li>
+                    <span class="boton"><a href=""> </a></span>
+                </li>
+            </ul>
+            </nav>
+        <section class="contenido">
+            <div class="mostrador" id="mostrador">
+                <div class="fila">
+                    <div class="item" onclick="cargar(this)">
+                        <div class="contenedor-foto">
+                            <img src="Bateria.jpg" alt="">
+                        </div>
+                        <p class="descripcion">Bateria</p>
+                        <span class="precio">$ 30.00</span>
+                    </div>
+                    <div class="item" onclick="cargar(this)">
+                        <div class="contenedor-foto">
+                            <img src="Caucho.jpg" alt="">
+                        </div>
+                        <p class="descripcion">Caucho</p>
+                        <span class="precio">$ 10.00</span>
+                    </div>
+                    <div class="item" onclick="cargar(this)">
+                        <div class="contenedor-foto">
+                            <img src="Bujia.jpg" alt="">
+                        </div>
+                        <p class="descripcion">Bujia</p>
+                        <span class="precio">$ 5.00</span>
+                    </div>
+                    <div class="item" onclick="cargar(this)">
+                        <div class="contenedor-foto">
+                            <img src="Freno.jpg" alt="">
+                        </div>
+                        <p class="descripcion">Freno</p>
+                        <span class="precio">$ 9.99</span>
+                    </div>
+                        <div class="item" onclick="cargar(this)">
+                            <div class="contenedor-foto">
+                                <img src="Amortiguadores.jpg" alt="">
+                            </div>
+                            <p class="descripcion">Amortiguadores Traseros</p>
+                            <span class="precio">$ 15.00</span>
+                        </div>
+                        <div class="item" onclick="cargar(this)">
+                            <div class="contenedor-foto">
+                                <img src="Amortiguador.jpg" alt="">
+                            </div>
+                            <p class="descripcion">Amortiguadores Delanteros</p>
+                            <span class="precio">$ 12.00</span>
+                        </div>
+                </div>
+            </div>
+                <!-- CONTENEDOR DEL ITEM SELECCIONADO -->
+                <div class="seleccion" id="seleccion">
+                    <div class="cerrar" onclick="cerrar()">
+                        &#x2715
+                    </div>
+                    <div class="info">
+                        <img src="img/1.png" alt="" id="img">
+                        <h2 id="modelo">NIKE MODEL 1</h2>
+                        <p id="descripcion">Descripción Modelo 1</p>
+        
+                        <span class="precio" id="precio">$ 130</span>
+        
+                        <div class="fila">
+                            <div class="size">
+                                <label for="">Cantidad</label>
+                                <select name="" id="">
+                                    <option value="">1</option>
+                                    <option value="">2</option>
+                                    <option value="">3</option>
+                                    <option value="">4</option>
+                                </select>
+                            </div>
+                            <button>AGREGAR AL CARRITO</button>
+                        </div>
+                    </div>
+        </section>
+        <script src="script.js"></script>
+    </body>
+</html>
