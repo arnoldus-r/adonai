@@ -5,6 +5,7 @@ import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import { useNavigate } from "react-router-dom";
+import { NavBar } from '../components/NavBar'
 
 
 function Copyright(props) {
@@ -18,25 +19,18 @@ function Copyright(props) {
   );
 }
 
-
-
 export default function Login() {
       const navigate = useNavigate();
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    const data = new FormData(event.currentTarget);
-    console.log({
-      email: data.get('email'),
-      password: data.get('password'),
-    });
-    localStorage.setItem('@token', data.get('email'));
-    if (data.get('email') === '0') {  navigate("/user")}
-      else if (data.get('email') === '1') { navigate("report")}
+    // const data = new FormData(event.currentTarget);
+    navigate("/user")
   };
 
   return (
       <Container component="main" maxWidth="xs">
+        <NavBar/>
         <Box
           sx={{
             marginTop: 8,
