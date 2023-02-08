@@ -153,6 +153,7 @@ function DashboardContent() {
                   sx={{
                     display: 'flex',
                     flexDirection: 'row',
+                    flexGrow: 1,
                     height: 450,
                   }}
                 >
