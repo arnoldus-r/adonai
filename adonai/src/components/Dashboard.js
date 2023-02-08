@@ -32,7 +32,7 @@ import MediaCard2 from './MediaCard2';
 import MediaCard3 from './MediaCard3';
 import MediaCard4 from './MediaCard4';
 import MediaCard5 from './MediaCard5';
-import pago from './Pago';
+import Pago from './Pago';
 
 
 function Copyright(props) {
