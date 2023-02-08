@@ -164,6 +164,7 @@ function DashboardContent() {
                   <Route path='/' element={<Login />} /> 
                   <Route path='/productos' element=
                   {
+                    <>
                     <Box sx={{
                       display: 'flex',
                       flexDirection: 'row',
