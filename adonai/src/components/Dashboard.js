@@ -162,12 +162,12 @@ function DashboardContent() {
                   <Route path='/uno/almacen' element={<Report />} />        
                   <Route path='/uno/otra' element={<Product />} />                   
                   <Route path='/' element={<Login />} /> 
-                  <Route path='/productos' element={
-                    <Box
-                    sx={{
-                    display: 'flex',
-                    flexDirection: 'row',
-                    }}
+                  <Route path='/productos' element=
+                  {
+                    <Box sx={{
+                      display: 'flex',
+                      flexDirection: 'row',
+                      }}
                     >
                       <MediaCard />
                       <MediaCard1 />
@@ -175,7 +175,9 @@ function DashboardContent() {
                       <MediaCard3 />
                       <MediaCard4 />
                       <MediaCard5 />
-                    <Box/>} />
+                    <Box/>
+                    </> } 
+                     />
                   </Routes>
                 </Paper>
               </Grid>
