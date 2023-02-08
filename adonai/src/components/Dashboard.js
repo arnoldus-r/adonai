@@ -152,7 +152,7 @@ function DashboardContent() {
                 <Paper
                   sx={{
                     display: 'flex',
-                    flexDirection: 'row',
+                    flexDirection: 'column',
                     height: 450,
                   }}
                 >
@@ -166,7 +166,6 @@ function DashboardContent() {
                     sx={{
                     display: 'flex',
                     flexDirection: 'row',
-                    justifyContent: 'space-evenly',
                     }}
                     >
                       <MediaCard />
