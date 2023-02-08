@@ -24,7 +24,7 @@ export default function MediaCard() {
       </CardContent>
       <CardActions>
       10$
-        <Button size="small">Añadir al Carrito</Button>
+        <Button size="small" variant="contained">Añadir al Carrito</Button>
       </CardActions>
     </Card>
   );
