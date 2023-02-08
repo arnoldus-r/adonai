@@ -22,7 +22,8 @@ import { mainListItems, secondaryListItems } from './listItems';
 //import Deposits from './Deposits';
 //import Orders from './Orders';
 import Login from '../pages/Login';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+
 import UserTable from './UserTable';
 import Report from './Report';
 import Product from './Product';
@@ -128,7 +129,9 @@ function DashboardContent() {
           </Toolbar>
           <Divider />
           <List component="nav">
-            {<><Pago /> {mainListItems}
+            {<>{{const location = useLocation();
+
+              () => if(location.pathname === '/productos') return <Pago />; }} {mainListItems}
               </>}
             <Divider sx={{ my: 1 }} />
             {/*secondaryListItems*/}
