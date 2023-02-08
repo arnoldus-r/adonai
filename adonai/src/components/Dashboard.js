@@ -128,7 +128,7 @@ function DashboardContent() {
           </Toolbar>
           <Divider />
           <List component="nav">
-            {<><Pago /> mainListItems
+            {<><Pago /> {mainListItems}
               </>}
             <Divider sx={{ my: 1 }} />
             {/*secondaryListItems*/}
