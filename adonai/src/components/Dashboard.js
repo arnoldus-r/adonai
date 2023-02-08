@@ -156,7 +156,15 @@ function DashboardContent() {
                   <Route path='/uno/almacen' element={<Report />} />        
                   <Route path='/uno/otra' element={<Product />} />                   
                   <Route path='/' element={<Login />} /> 
-                  <Route path='/productos' element={<MediaCard />} />
+                  <Route path='/productos' element={
+                    <>
+                      <MediaCard nombre="Amortiguador" />
+                      <MediaCard nombre="Amortiguadores" />
+                      <MediaCard nombre="Bujia" />
+                      <MediaCard nombre="Bateria" />
+                      <MediaCard nombre="Caucho" />
+                      <MediaCard nombre="Freno" />
+                    </>} />
                   </Routes>
                 </Paper>
               </Grid>
