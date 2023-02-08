@@ -11,12 +11,12 @@ export default function MediaCard() {
     <Card sx={{ maxWidth: 140 }}>
       <CardMedia
         sx={{ height: 140 }}
-        image="/static/Amortiguador.jpg"
-        title="amortiguador"
+        image="/static/Amortiguadores.jpg"
+        title="amortiguadores"
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
-          Amortiguador
+          Amortiguadores
         </Typography>
         <Typography variant="body2" color="text.secondary">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a condimentum odio. Morbi dapibus, diam et vestibulum efficitur, dolor lorem lacinia erat, viverra pulvinar velit ipsum malesuada dui. Cras sed.

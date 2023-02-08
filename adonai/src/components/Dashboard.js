@@ -27,6 +27,11 @@ import UserTable from './UserTable';
 import Report from './Report';
 import Product from './Product';
 import MediaCard from './MediaCard';
+import MediaCard1 from './MediaCard1';
+import MediaCard2 from './MediaCard2';
+import MediaCard3 from './MediaCard3';
+import MediaCard4 from './MediaCard4';
+import MediaCard5 from './MediaCard5';
 
 
 function Copyright(props) {
@@ -158,12 +163,12 @@ function DashboardContent() {
                   <Route path='/' element={<Login />} /> 
                   <Route path='/productos' element={
                     <>
-                      <MediaCard nombre="Amortiguador" />
-                      <MediaCard nombre="Amortiguadores" />
-                      <MediaCard nombre="Bujia" />
-                      <MediaCard {nombre={"Bateria"}} />
-                      <MediaCard {nombre="Caucho"} />
-                      <MediaCard nombre={"Freno"} />
+                      <MediaCard />
+                      <MediaCard1 />
+                      <MediaCard2 />
+                      <MediaCard3 />
+                      <MediaCard4 />
+                      <MediaCard5 />
                     </>} />
                   </Routes>
                 </Paper>
