@@ -24,10 +24,12 @@ export default function Login() {
 		event.preventDefault();
 		const data = new FormData(event.currentTarget);
 		
-		if (data.get('email') === '0')
+		if (data.get('email') === '4')
 			navigate("/uno/general")
-		else if (data.get('email') === '1')
+		else if (data.get('email') === '3')
 			navigate("/uno/almacen")
+		else if (data.get('email') === '2')
+			navigate("/uno/otra")
 	};
 
 	return (

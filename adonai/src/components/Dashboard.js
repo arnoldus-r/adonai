@@ -25,6 +25,7 @@ import Login from '../pages/Login';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import UserTable from './UserTable';
 import Report from './Report';
+import Product from './Product';
 
 
 
@@ -152,7 +153,9 @@ function DashboardContent() {
                 >
                 <Routes>
                   <Route path='/uno/general' element={<UserTable />} />
-                  <Route path='/uno/almacen' element={<Report />} />                   
+                  <Route path='/uno/almacen' element={<Report />} />        
+                  <Route path='/uno/otra' element={<Product />} />                   
+           
                   <Route path='/' element={<Login />} /> 
                   </Routes>
                 </Paper>
