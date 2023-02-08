@@ -168,7 +168,7 @@ function DashboardContent() {
                     flexDirection: 'row',
                     flexWrap: 'wrap',
                     justifyContent: 'space-evenly',
-                    alignItems: 'center,
+                    alignItems: 'center',
                     alignContent: 'space-around'
                     }}
                     >
