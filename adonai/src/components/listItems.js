@@ -48,8 +48,6 @@ export const blanListItems = (
       <ListItemText primary="Iniciar Sesión" />
     </ListItemButton>
     </Link>
-    <a href="/static/Catalogo.html"> gggg
-    </a>
   </React.Fragment>
 );
 
