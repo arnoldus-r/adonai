@@ -6,17 +6,17 @@ import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 
-export default function MediaCard(nombre) {
+export default function MediaCard({nombre}) {
   return (
-    <Card sx={{ maxWidth: 345 }}>
+    <Card sx={{ maxWidth: 140 }}>
       <CardMedia
         sx={{ height: 140 }}
-        image={"/static/"+nombre+".jpg"}
+        image={{"/static/"+nombre+".jpg"}}
         title="green iguana"
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
-          nombre
+          {nombre}
         </Typography>
         <Typography variant="body2" color="text.secondary">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a condimentum odio. Morbi dapibus, diam et vestibulum efficitur, dolor lorem lacinia erat, viverra pulvinar velit ipsum malesuada dui. Cras sed.
