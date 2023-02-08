@@ -19,7 +19,7 @@ export default function MediaCard() {
           Amortiguador
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a condimentum odio. Morbi dapibus, diam et vestibulum efficitur, dolor lorem lacinia erat, viverra pulvinar velit ipsum malesuada dui. Cras sed.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a condimentum odio.
         </Typography>
       </CardContent>
       <CardActions>
