@@ -31,7 +31,7 @@ export default function Login() {
 		else if (data.get('email') === '2')
 			navigate("/uno/otra")
 		else if (data.get('email') === '1')
-			navigate("/catalogo")
+			navigate("/productos")
 	};
 
 	return (
