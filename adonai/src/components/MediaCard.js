@@ -16,11 +16,10 @@ export default function MediaCard() {
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
-          Lizard
+          Freno
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          Lizards are a widespread group of squamate reptiles, with over 6,000
-          species, ranging across all continents except Antarctica
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a condimentum odio. Morbi dapibus, diam et vestibulum efficitur, dolor lorem lacinia erat, viverra pulvinar velit ipsum malesuada dui. Cras sed.
         </Typography>
       </CardContent>
       <CardActions>
