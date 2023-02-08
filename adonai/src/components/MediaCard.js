@@ -11,7 +11,7 @@ export default function MediaCard(nombre) {
     <Card sx={{ maxWidth: 140 }}>
       <CardMedia
         sx={{ height: 140 }}
-        image={{"/static/"+nombre+".jpg"}}
+        image={{"/static/" + {nombre} + ".jpg"}}
         title="green iguana"
       />
       <CardContent>
