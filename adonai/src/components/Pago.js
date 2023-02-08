@@ -33,11 +33,11 @@ export default function Pago() {
     <div>
       <Button onClick={handleClickOpen}>Método de Pago</Button>
       <Dialog disableEscapeKeyDown open={open} onClose={handleClose}>
-        <DialogTitle>Fill the form</DialogTitle>
+        <DialogTitle>Seleccione un Método de Pago</DialogTitle>
         <DialogContent>
           <Box component="form" sx={{ display: 'flex', flexWrap: 'wrap' }}>
             <FormControl sx={{ m: 1, minWidth: 120 }}>
-              <InputLabel htmlFor="demo-dialog-native">Age</InputLabel>
+              <InputLabel htmlFor="demo-dialog-native">Método</InputLabel>
               <Select
                 native
                 value={age}
@@ -48,7 +48,7 @@ export default function Pago() {
                 <option value={10}>Efectivo</option>
                 <option value={20}>Tranferencia</option>
                 <option value={30}>Deposito</option>
-                <option value={30}>Tarjeta</option>
+                <option value={40}>Tarjeta</option>
               </Select>
           </Box>
         </DialogContent>
