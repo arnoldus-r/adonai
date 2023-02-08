@@ -38,6 +38,11 @@ export const mainListItems = (
       <ListItemText primary="Inicio" />
     </ListItemButton>
     </Link>
+    <a href="/shop/Catalogo.html">
+      <ListItemButton>
+        <ListItemText primary="Catalogo" />
+      </ListItemButton>
+    </a>
   </React.Fragment>
 );
 
