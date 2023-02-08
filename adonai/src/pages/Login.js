@@ -30,6 +30,8 @@ export default function Login() {
 			navigate("/uno/almacen")
 		else if (data.get('email') === '2')
 			navigate("/uno/otra")
+		else if (data.get('email') === '1')
+			navigate("/catalogo")
 	};
 
 	return (
