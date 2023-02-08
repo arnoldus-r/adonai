@@ -10,7 +10,7 @@ export default function MediaCard() {
   return (
     <Card sx={{ maxWidth: 140 }}>
       <CardMedia
-        sx={{ height: 140 }}
+        sx={{ height: 80 }}
         image="/static/Caucho.jpg"
         title="Caucho"
       />
@@ -19,10 +19,11 @@ export default function MediaCard() {
           Caucho
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a condimentum odio.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </Typography>
       </CardContent>
       <CardActions>
+      50$
         <Button size="small">Añadir al Carrito</Button>
       </CardActions>
     </Card>
