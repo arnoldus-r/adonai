@@ -25,7 +25,7 @@ export default function MediaCard() {
       <CardActions>
       60$
         <Button size="small" variant="contained"
-        onClick={{localStorage.setItem('Detail', JSON.stringify({precio:60, nombre:"Freno"}));}}
+        onClick={{localStorage.setItem('Detail', JSON.stringify({precio:60, nombre:"Freno"}))}}
         >Añadir al Carrito</Button>
       </CardActions>
     </Card>
