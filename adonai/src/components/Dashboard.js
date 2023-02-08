@@ -32,6 +32,7 @@ import MediaCard2 from './MediaCard2';
 import MediaCard3 from './MediaCard3';
 import MediaCard4 from './MediaCard4';
 import MediaCard5 from './MediaCard5';
+import pago from './Pago';
 
 
 function Copyright(props) {
@@ -127,7 +128,8 @@ function DashboardContent() {
           </Toolbar>
           <Divider />
           <List component="nav">
-            {mainListItems}
+            {<><Pago /> mainListItems
+              </>}
             <Divider sx={{ my: 1 }} />
             {/*secondaryListItems*/}
           </List>
