@@ -166,6 +166,9 @@ function DashboardContent() {
                     sx={{
                     display: 'flex',
                     flexDirection: 'row',
+                    justifyContent: 'space-evenly',
+                    alignItems: 'center',
+                    height: '100%',
                     }}
                     >
                       <MediaCard />
