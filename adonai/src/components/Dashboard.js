@@ -129,9 +129,9 @@ function DashboardContent() {
           </Toolbar>
           <Divider />
           <List component="nav">
-            {<>{{ 
+            {<>{
 
-              () => if(useLocation().pathname === '/productos') return <Pago />; }} {mainListItems}
+              if(useLocation().pathname === '/productos') <Pago /> } {mainListItems}
               </>}
             <Divider sx={{ my: 1 }} />
             {/*secondaryListItems*/}
