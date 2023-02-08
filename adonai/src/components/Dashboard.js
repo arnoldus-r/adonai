@@ -152,7 +152,7 @@ function DashboardContent() {
                 <Paper
                   sx={{
                     display: 'flex',
-                    flexDirection: 'column',
+                    flexDirection: 'row',
                     height: 450,
                   }}
                 >
