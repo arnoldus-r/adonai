@@ -50,6 +50,7 @@ export default function Pago() {
                 <option value={30}>Deposito</option>
                 <option value={40}>Tarjeta</option>
               </Select>
+              </FormControl>
           </Box>
         </DialogContent>
         <DialogActions>
