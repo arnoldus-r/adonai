@@ -164,7 +164,6 @@ function DashboardContent() {
                   <Route path='/' element={<Login />} /> 
                   <Route path='/productos' element=
                   {
-                    <>
                     <Box sx={{
                       display: 'flex',
                       flexDirection: 'row',
@@ -176,8 +175,8 @@ function DashboardContent() {
                       <MediaCard3 />
                       <MediaCard4 />
                       <MediaCard5 />
-                    <Box/>
-                    </> } 
+                    </Box>
+} 
                      />
                   </Routes>
                 </Paper>
