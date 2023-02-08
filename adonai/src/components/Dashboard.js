@@ -161,9 +161,9 @@ function DashboardContent() {
                       <MediaCard nombre="Amortiguador" />
                       <MediaCard nombre="Amortiguadores" />
                       <MediaCard nombre="Bujia" />
-                      <MediaCard nombre="Bateria" />
-                      <MediaCard nombre="Caucho" />
-                      <MediaCard nombre="Freno" />
+                      <MediaCard {nombre={"Bateria"}} />
+                      <MediaCard {nombre="Caucho"} />
+                      <MediaCard nombre={"Freno"} />
                     </>} />
                   </Routes>
                 </Paper>
